@@ -10,7 +10,7 @@ This package simplifies validating international bank account numbers (IBAN) and
 ### Step 1: Require the package via Composer
 
 ```bash
-composer require trustinsurance/ibanvalidator:@dev
+composer require trustinsurance/ibanvalidator:^1.0
 
 
 #Usage
