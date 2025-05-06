@@ -1,0 +1,25 @@
+{
+    "name": "trustinsurance/ibanvalidator",
+    "description": "Laravel package to validate IBAN and BIC",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Trustinsurance\\Ibanvalidator\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+              "Trustinsurance\\Ibanvalidator\\IbanValidatorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
